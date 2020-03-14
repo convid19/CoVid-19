@@ -60,8 +60,7 @@ namespace CryptoNote
         static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
         const char GENESIS_COINBASE_TX_HEX[] =
-            "010a01ff000188f3b501029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210142694232c5b04151"
-            "d9e4c27d31ec7a68ea568b19488cfcb422659a07a0e44dd5";
+            "012801ff0001a8c17d029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101a7dea01ca29944772576194f3adf834d6307f0c3471a6752f31e3d19f4ed47d4";
 
         static_assert(
             sizeof(GENESIS_COINBASE_TX_HEX) / sizeof(*GENESIS_COINBASE_TX_HEX) != 1,
@@ -72,7 +71,7 @@ namespace CryptoNote
            to import from when the block height cannot be found in the node or the node is offline. */
         const uint64_t GENESIS_BLOCK_TIMESTAMP = 1584117000;
 
-        const size_t CRYPTONOTE_REWARD_BLOCKS_WINDOW = 100;
+        const size_t CRYPTONOTE_REWARD_BLOCKS_WINDOW = 25;
 
         const size_t CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE =
             100000; // size of block (bytes) after which reward for block calculated using block size
@@ -376,7 +375,7 @@ namespace CryptoNote
 
     const char LATEST_VERSION_URL[] = "http://latest.turtlecoin.lol";
 
-    const std::string LICENSE_URL = "https://github.com/turtlecoin/turtlecoin/blob/master/LICENSE";
+    const std::string LICENSE_URL = "https://github.com/convid19/CoVid-19/blob/master/LICENSE";
 
     const static boost::uuids::uuid CRYPTONOTE_NETWORK = {
         {0xb5, 0x0c, 0x4a, 0x6c, 0xcf, 0x52, 0x58, 0x41, 0x65, 0xf9, 0x81, 0xa4, 0xb6, 0xc1, 0x43, 0xe9}};
