@@ -16,7 +16,7 @@ endif ()
 set(CMAKE_CONFIGURATION_TYPES Debug RelWithDebInfo Release CACHE TYPE INTERNAL)
 set(ARCH native CACHE STRING "CPU to build for: -march value or native")
 
-project(TurtleCoin)
+project(CoVid-19)
 
 # Required for finding Threads on ARM
 enable_language(C)
