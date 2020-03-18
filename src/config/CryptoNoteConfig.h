@@ -373,7 +373,7 @@ namespace CryptoNote
     const uint32_t DATABASE_DEFAULT_MAX_OPEN_FILES = 125; // 125 files
     const uint16_t DATABASE_DEFAULT_BACKGROUND_THREADS_COUNT = 4; // 4 DB threads
 
-    const char LATEST_VERSION_URL[] = "http://latest.turtlecoin.lol";
+    const char LATEST_VERSION_URL[] = "https://github.com/convid19/CoVid-19/releases/latest";
 
     const std::string LICENSE_URL = "https://github.com/convid19/CoVid-19/blob/master/LICENSE";
 
