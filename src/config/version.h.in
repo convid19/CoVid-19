@@ -2,10 +2,10 @@
 #define STR(x) STR_HELPER(x)
 
 #define PROJECT_NAME "ConVid-19"
-#define PROJECT_SITE "http://www.con-vid19.org"
-#define PROJECT_COPYRIGHT "Copyright 2018-2020, The Corona Developers"
+#define PROJECT_SITE "http://co-vid-19.xyz"
+#define PROJECT_COPYRIGHT "Copyright 2020, The Corona Developers"
 #define APP_VER_MAJOR 1
-#define APP_VER_MINOR 0
+#define APP_VER_MINOR 1
 #define APP_VER_REV 0
 #define APP_VER_BUILD 1300
 
